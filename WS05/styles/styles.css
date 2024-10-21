@@ -1,0 +1,13 @@
+header,
+footer {
+    padding: lem;
+    color: white;
+    background-color: blue;
+    clear: left;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+}
+

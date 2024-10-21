@@ -1,0 +1,13 @@
+
+    body { 
+        background-color: black; 
+        color:chartreuse; 
+        background-image: url(../);
+        font-family: " Aerial";
+    }
+
+    .btn { background-color: gray; }
+
+    #nappi {
+        font-size: 38px;
+    }
