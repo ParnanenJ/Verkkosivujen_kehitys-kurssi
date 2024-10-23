@@ -1,0 +1,29 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: darkblue;
+    text-align: center;
+    border-style: solid;
+    border-color: yellow;
+}
+
+.link {
+    text-align: center;
+}
+.logo {
+    width: 20%;
+    border-style: ridge;
+    border-color: yellow;
+    background-color: darkblue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
