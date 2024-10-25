@@ -1,0 +1,71 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+/* Centering */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+h1 {
+    font-size: 50px;
+    background-color: darkblue;
+    text-align: center;
+    border-style: solid;
+    border-color: yellow;
+}
+
+/* Paragrafs styles */
+
+p {
+    font-size: 12px;
+    color: lightgray;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    background-color: darkblue;
+}
+
+/* INDEX.HTML: Lists styles */
+
+ol{
+    list-style-type: upper-alpha;
+}
+ul {
+    list-style-type: square;
+}
+
+/* Borders styles */
+
+.dotted-box {
+    border: 2px dotted; 
+    width: 100px; 
+    height: 100px;
+}
+
+.logo-borders {
+    width: 20%;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    background-color: darkblue;
+}
+
+/* Image related styles */
+
+img{
+    width: 100%;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Progres element */
+.torjunnat{
+    text-align: center;
+    font-size: 20px;
+}
