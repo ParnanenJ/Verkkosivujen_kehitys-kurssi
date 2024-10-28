@@ -1,10 +1,84 @@
+body{
+    background-color: black;
+    
+}
+
+.logo{
+    text-align: start;
+    width: 10%;
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
 header,
 footer {
-    padding: lem;
     color: white;
-    background-color: blue;
-    clear: left;
+    background-color: darkblue;
     text-align: center;
+    border-style: solid;
+    border-color: yellow;
+}
+
+footer{
+    padding: 20px;
+}
+
+nav{
+    padding: 20px;
+}
+
+aside{
+    float: right;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    padding: 20px;
+    border-color: yellow;
+    background-color: blueviolet;
+
+}
+
+article{
+    color: white;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    border-style: solid;
+    border-color: yellow;
+    background-color: rgb(247, 0, 214)
+}
+
+section{
+    color: white;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    border-style: solid;
+    border-color: yellow;
+    background-color: forestgreen
+
+    
 }
 
 .wrapper {
