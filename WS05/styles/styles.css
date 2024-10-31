@@ -70,6 +70,11 @@ dt{
     font-style: italic;
 }
 
+ul{
+    font-style: italic;
+    list-style-type: none;
+}
+
 article{
     color: white;
     text-align: center;
