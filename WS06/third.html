@@ -1,27 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Two Column Layout</title>
-</head>
-<body>
-    <div class="container">
-        <nav class="vertical-nav">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <title>WS06</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <img
+          src="./images/nashville-predators_wbg_1.avif"
+          alt="Kuvalinkki rikki"
+        >
+        <h1>Visiting the game</h1>
+      </div>
+    </header>
+
+    <nav>
+      <div class="topnav">
+        <div>
+          <a href="index.html">Index HTML</a>
+        </div>
+        <div>
+          <a href="second.html">Second HTML</a>
+        </div>
+        <div>
+          <a class="active" href="third.html">Third HTML</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="aside-left">
         
-        <section class="content">
-            <h1>Welcome to Our Website</h1>
-            <p>This is the main content area where you can add text, images, and more.</p>
-            <p>Here you can provide details about your services or any other relevant information.</p>
-        </section>
+            <ul>
+                <li>
+                    <a href="https://www.nhl.com/predators/schedule" target="_blank">
+                    Schedule
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.nhl.com/predators/tickets/single-game-tickets" target="_blank">
+                    Tickets
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.nhl.com/predators/roster" target="_blank">
+                    Roster
+                    </a>
+                </li>
+            </ul>
+        
     </div>
-</body>
+
+    <div id="content">
+
+      <article>
+        <h2>Info</h2>
+        <div>
+          <p>
+            From this site you can get more info about future games and tickets.
+          </p>
+        <p>
+            From the left you can check game schedules, tickets and roster by clicking the links.
+        </p>
+        <p>Enjoy your game experience!</p>
+        </div>
+      </article>
+    </div>
+
+    <footer>Jiro Pärnänen</footer>
+  </body>
 </html>
