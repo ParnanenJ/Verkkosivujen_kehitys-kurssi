@@ -37,7 +37,7 @@ footer {
     background-color: darkblue;
     text-align: center;
     border-style: solid;
-    border-color: yellow;
+    border-color: #ffb81c;
 }
 
 footer{
@@ -49,7 +49,7 @@ nav{
     padding: 20px;
     border-style: solid;
     border-color: darkblue;
-    background-color: yellow;
+    background-color: #ffb81c;
 }
 
 a{
@@ -65,7 +65,7 @@ a{
         padding: 20px;
         border-style: solid;
         border-color: darkblue;
-        background-color: yellow;
+        background-color: #ffb81c;
         margin-top: 8px;
         margin-bottom: 8px;}
         .aside-left a:hover {
@@ -79,7 +79,7 @@ a{
     padding: 20px;
     text-align: center;
     border-style: solid;
-    border-color: yellow;
+    border-color: #ffb81c;
     background-image: url(https://img.freepik.com/free-photo/brown-wooden-textured-flooring-background_53876-106140.jpg);
     margin-top: 10px;
 }
@@ -136,7 +136,7 @@ section{
 
 .goalies{
     border-style: solid;
-    border-color: yellow;
+    border-color: #ffb81c;
     background-color: darkblue;
 }
 
