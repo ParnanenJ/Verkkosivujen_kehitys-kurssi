@@ -3,8 +3,30 @@
     color: black !important;
 }
 
-#041E41
+/* Lisää tyylit navigaatiolinkkeihin */
+.navbar-nav .nav-link {
+    position: relative;
+    color: black; /* Normaalin tekstin väri */
+}
 
-.navbar-nav .nav-link:hover {
-    color: blue;
+/* Viiva normaalitilassa (ei hover, ei aktiivinen) */
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0; /* Viiva tulee tekstin alle */
+    width: 0;
+    height: 2px; /* Viivan korkeus */
+    background-color: black; /* Viivan väri */
+    transition: width 0.3s ease; /* Sileä animaatio */
+}
+
+/* Hover-tila: viiva laajenee koko tekstin leveyteen */
+.navbar-nav .nav-link:hover::after {
+    width: 100%; /* Koko tekstin leveys */
+}
+
+/* Aktiivinen linkki: viiva pysyy tekstin alla */
+.navbar-nav .nav-link.active::after {
+    width: 100%; /* Koko tekstin leveys */
 }
