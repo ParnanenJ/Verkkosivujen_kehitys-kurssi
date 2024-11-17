@@ -3,9 +3,56 @@
     margin-bottom: 1.5rem !important;
 }
 
+.aside-left{
+    padding: 10px;
+    float: left;
+    width: 20rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    height: 47rem;
+}
+
 .latest-news {
     background-color: #6c757d;
     color: white;
     padding: 10px;
+    height: 50rem;
 }
 
+.slide-show{
+    background-color: #333;
+    color: white;
+    height: 30rem;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.calendar{
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    height: 15rem;
+}
+
+.text-box{
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    height: 15rem;
+}
+
+footer{
+    background-color: #ffb81c;
+    text-align: center;
+    padding: 10px;
+}
