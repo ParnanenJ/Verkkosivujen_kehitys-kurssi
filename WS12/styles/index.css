@@ -9,3 +9,12 @@
     padding: 10px;
 }
 
+.main-content{
+    min-height: 230px;
+    background: #dbdfe5;
+}
+.sidebar-content{
+    min-height: 100px;
+    margin-bottom: 30px;
+    background: #b4bac0;
+}

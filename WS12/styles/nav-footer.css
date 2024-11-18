@@ -30,3 +30,23 @@
 .navbar-nav .nav-link.active::after {
     width: 95%; /* Koko tekstin leveys */
 }
+
+
+/* Footer */
+
+
+.cop-foot{
+    background-color: #ffb81c;
+    color: black;
+}
+
+.link-foot{
+    background-color: #ffb81c;
+}
+
+hr{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: #041E41;
+    
+}
