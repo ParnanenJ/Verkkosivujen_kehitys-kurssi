@@ -11,7 +11,6 @@
 
 .main-content{
     min-height: 230px;
-    background: #dbdfe5;
 }
 .sidebar-content{
     min-height: 100px;
@@ -22,3 +21,10 @@
 .news{
     text-align: center;
 }
+
+.news-head{
+    color: black;}
+    .news-head a:hover {
+        color: #333;
+}
+
