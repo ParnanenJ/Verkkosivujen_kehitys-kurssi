@@ -1,0 +1,32 @@
+.my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+h1{
+    background-image: url(h1-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+    color: #ffb81c !important;
+    border: solid;
+    
+}
+
+.card-body a{
+    background-color: #ffb81c !important;
+    color: black;
+    border-color: #ffb81c;
+}
+    .card-body a:hover {
+      background-color: #041E41 !important;
+      color: white;
+      
+}
+
+.btn-custom{
+    background-color: #ffb81c !important;}
+    .btn-custom a:hover {
+      background-color: #041E41 !important; 
+     
+}
