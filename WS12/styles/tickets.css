@@ -3,13 +3,14 @@
     margin-bottom: 1.5rem !important;
 }
 
-h1{
-    background-image: url(h1-background.jpg);
+.headers{
+    background-image: url(./background-images/ticket-header-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     padding: 1.5rem;
-    color: #ffb81c !important;
+    color: #041E41 !important;
     border: solid;
+    border-color: #ffb81c;
     
 }
 
@@ -27,6 +28,15 @@ h1{
 .btn-custom{
     background-color: #ffb81c !important;}
     .btn-custom a:hover {
-      background-color: #041E41 !important; 
-     
+      background-color: #041E41 !important;
 }
+
+p a{
+    background-color: #ffb81c !important;
+    color: black;
+    border-color: #ffb81c;
+}
+    p a:hover {
+      background-color: #041E41 !important;
+      color: white !important; 
+    }

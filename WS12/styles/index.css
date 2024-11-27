@@ -31,3 +31,32 @@
 .h-center{
     text-align: center;
 }
+
+.card-body a{
+    background-color: #ffb81c !important;
+    color: black;
+    border-color: #ffb81c;
+}
+    .card-body a:hover {
+      background-color: #041E41 !important;
+      color: white;
+      
+}
+
+.btn-custom{
+    background-color: #ffb81c !important;}
+    .btn-custom a:hover {
+      background-color: #041E41 !important; 
+     
+}
+
+.headers{
+    background-image: url(./background-images/ticket-header-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+    color: #041E41 !important;
+    border: solid;
+    border-color: #ffb81c;
+    
+}
