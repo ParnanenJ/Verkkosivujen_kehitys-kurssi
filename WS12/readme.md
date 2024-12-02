@@ -1,1 +1,1 @@
-Tämä on verkkosivujen kehittäminen opintojakson moduuli 12 työjkansio
+Tämä on verkkosivujen kehittäminen opintojakson moduuli 12 työkansio
