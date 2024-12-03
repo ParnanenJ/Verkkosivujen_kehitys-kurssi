@@ -52,7 +52,7 @@
 }
 
 .headers{
-    background-image: url(./background-images/ticket-header-2.jpg);
+    background-image: url(../images/background-images/ticket-header-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     padding: 1.5rem;
