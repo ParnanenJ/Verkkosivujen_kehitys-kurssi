@@ -7,7 +7,6 @@
 .card-body a{
     background-color: #ffb81c !important;
     color: black;
-    border-color: #ffb81c;
 }
     .card-body a:hover {
       background-color: #041E41 !important;
